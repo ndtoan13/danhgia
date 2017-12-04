@@ -47,5 +47,6 @@
         android:layout_height="61dp"
         android:text="Đăng nhập"
         tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="249dp" />
+        tools:layout_editor_absoluteY="249dp" 
+        android:onClick="onLogin"/>
 </android.support.constraint.ConstraintLayout>
