@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vnitts.danhgia.danhgia.MainActivity">
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Số điện thoại"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <TextView
+        android:id="@+id/lblPhone"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:text="Số điện thoại"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <TextView
+        android:id="@+id/lblPassword"
+        android:layout_width="142dp"
+        android:layout_height="46dp"
+        android:text="Mật khẩu"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="213dp"
+        android:layout_height="61dp"
+        android:text="Đăng nhập"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="249dp" />
+</android.support.constraint.ConstraintLayout>
